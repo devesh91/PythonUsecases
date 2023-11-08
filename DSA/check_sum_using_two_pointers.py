@@ -1,4 +1,4 @@
-def twoSum(self, nums: List[int], target: int) -> List[int]:
+def twoSum(self, nums, target):
     map = {}
     for k, v in enumerate(nums):
         if not map.get(v):
